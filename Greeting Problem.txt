@@ -1,0 +1,12 @@
+Combining an int 10h(Video Interrupt) and int 21h(Keyboard Interrupt),
+create a program that displays a greeting.
+The program should take a string of input (name of the user) and output a greeting in a 25x80 light cyan screen with light red foreground.
+The greeting should be as much as possible, centered row-wise and column-wise.
+
+Example
+input: Guts
+output: Hello, Guts!
+
+Formula to set starting cursor at the center of a row
+=(80 - greetingLength)/2
+You can set the starting cursor(column) here to ensure that the greeting is displayed center column-wise
