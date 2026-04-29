@@ -4,9 +4,12 @@ Take n char inputs using function 00h int 16h
 Store the scan code of each character taken in an array S[]
 
 Take another n char inputs
-for each i in n, verify if the scan code of i matches 
-with S[i], terminate the program once a mismatch happens. Display a 25x80 screen with text "SUCESS" in light GREEN over WHITE background, and if no mismatch happened RED text "FAILED" over BLACK background.
-Text must be centered row-wise and column wise
+for each i in n, verify if the scan code of n[i] matches 
+with S[i], terminate the program once a mismatch happens. 
+Display a 25x80 screen with text "SUCESS" 
+in light GREEN over WHITE background if no mismatch happened,
+RED text "FAILED" over BLACK background otherwise.
+Text must be centered row-wise and column-wise
 
 
  
