@@ -1,0 +1,8 @@
+The triangle card
+
+Utilize a 25x80 screen
+by using backward and forward slash, create a triangle shape. 
+Requirements:
+	Triangle height is 11 rows
+	Triangle must be centered in the 25x80 screen
+	Background: white, Foreground: Red
