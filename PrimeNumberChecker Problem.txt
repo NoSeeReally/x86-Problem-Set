@@ -1,0 +1,4 @@
+Take a user input
+determine if it is a prime number
+display "Prime" in the console if prime,
+"Not Prime" if otherwise 

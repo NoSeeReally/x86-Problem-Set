@@ -1,0 +1,4 @@
+Using function 0AH int 21h
+Take a string of user input, assuming user input is a string of 3 digits (100-255 only).
+The problem, whats being stored is a series of ascii characters and not the actual decimal number
+Convert the input into an actual decimal number and store it into 1 byte of memory.
