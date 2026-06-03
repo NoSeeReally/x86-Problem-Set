@@ -2,7 +2,6 @@
 .stack 64
 .data  
 total db 0 
-temp db 0
 PARA_LIST LABEL BYTE
 max_len db 4
 act_len db ?
